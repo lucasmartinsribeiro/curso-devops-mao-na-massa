@@ -12,7 +12,7 @@ RUN mkdir /opt/note
 RUN chown -R notes:notes /opt/note
 USER notes:notes
 WORKDIR /opt/note
-RUN git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git /opt/note
+RUN git clone https://github.com/lucasmartinsribeiro/spring-boot-mysql-rest-api-tutorial.git /opt/note
 RUN mvn package -Dmaven.test.skip=true
 ARG JAR_FILE=*.jar
 RUN cp ./target/easy-notes-1.0.0.jar /opt/note/easy-note.jar
