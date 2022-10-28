@@ -4,7 +4,7 @@
 ### ✅ Requisitos
  
 - Instalar o Vagrant
-- Instalar o Virtual Box
+- Instalar o VirtualBox
 ---
 
 ### ⚙ Instruções para Utilização
@@ -12,7 +12,7 @@
 - Primeiro é necessário realizar a cópia do projeto, faça o download do arquivo .zip ou o git clone:
 
 ```bash
-curso-devops-mao-na-massa.zip or git clone https://github.com/lucasmartinsribeiro/-curso-devops-mao-na-massa.git
+curso-devops-mao-na-massa.zip or git clone https://github.com/lucasmartinsribeiro/curso-devops-mao-na-massa.git
 ```
 
 - Feito a cópia do projeto, o próximo passo é acessar a pasta com o projeto que você quer rodar  e instalar as dependências
