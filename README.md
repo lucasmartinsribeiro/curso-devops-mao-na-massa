@@ -38,3 +38,15 @@ vagrant ssh
 ```bash
 vagrant init
 ```
+
+- Fazer upload de uma pasta para dentro da sua máquina virtual
+
+```bash
+vagrant upload nome-da-pasta
+```
+
+- Quando você realizar uma mudança no provision, e quer subir essa mudança
+
+```bash
+vagrant provision
+```
